@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body { 
+    background-color: rgb(255, 206, 133); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin: 120px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+main p { margin-bottom: 10px; }
+
+header {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+[class*="site name"] { font-size: 35px; }
+
+[class*="login info"] {
+    position: absolute;
+    text-align: right;
+    top: 10px;
+    right: 10px;
+}
+
+[class*="login info"] a:link, [class*="login info"] a:visited { color: white; }
+
+[class*="login info"] a:hover { text-decoration: none; }
+
+[class*="site name"] a:link, [class*="site name"] a:visited {
+    color: white;
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+[class*="intro container"] {
+    margin: 0px 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix { clear: both; }
+
+[class*="name block"] h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 500px;
+}
+
+[class*="contacts block"] { margin-bottom: 15px; }
+
+[class*="contacts list button"] {
+    padding: 10px 20px;
+    border: 0px;
+    background-color: rgb(179, 240, 100);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+[class*="contacts list button"]:hover { text-decoration: underline; }
+
+[class*="timeline block"] {
+    width: 600px;
+    margin: 0px 20px;
+    text-align: justify;
+    float: left;
+}
+
+h2, h3 { margin-bottom: 10px; }
+
+[class*="timeline block"] li { margin-bottom: 20px; }
+
+[class*="secondary info block"] {
+    width: 340px;
+    text-align: justify;
+    float: left;
+    margin-right: 20px;
+}
+
+[class*="secondary info block"] section {
+    background-color: rgb(168, 240, 100);
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(10,10,10,0.5);
+}
+
+[class*="secondary info block"] section ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(168, 240, 100);
+    text-align: center;
+    padding: 15px 0px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+footer p { margin-bottom: 0px; }
+
+footer a:link, footer a:visited {
+    color: #000;
+    text-decoration: underline;
+}
+
+footer a:hover { text-decoration: none; }
+
+[class*="contacts list"] li {
+    background-color: rgb(168, 240, 100);
+    margin-bottom: 10px;
+}
+
+[class*="contacts list"] li:hover { transform: scale(1.1); }
+
+[class*="contacts list"] img {
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+[class*="contacts list"] a:link, [class*="contacts list"] a:visited {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    height: 35px;
+}
+
+[class*="contacts list"] a:hover { text-decoration: underline; }
