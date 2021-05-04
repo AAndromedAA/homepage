@@ -8,7 +8,7 @@ var contacts = [
     { link: 'https://www.facebook.com/Elon-Musk-19958149870/', name: 'Tesla website', src: './img/tesla_logo.png' }
 ];
 var contactsList = document.createElement("ul");
-contactsList.style = "list-style: none; position: absolute;";
+contactsList.style = "list-style: none; position: absolute; left: 270px; top: 60px; width: 200px;" ;
 contactsList.className = 'contacts list';
 contactsList.hidden = true;
 
