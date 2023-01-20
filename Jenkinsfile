@@ -9,7 +9,7 @@ pipeline {
         sh 'aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY'
         
         sh 'aws s3 cp index.html s3://filenko-devops-s3'
-        sh 'aws s3 cp img/* s3://filenko-devops-s3/img'
+        sh 'aws s3 sync img s3://filenko-devops-s3/img'
         sh 'aws s3 cp style.css s3://filenko-devops-s3'
         sh 'aws s3 cp javascript.js s3://filenko-devops-s3'
         echo 'Deploy finished'
